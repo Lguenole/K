@@ -1,0 +1,515 @@
+  
+body {
+ background-image: url('fond88.png');
+background-size: 1500px; /* Adjust to fit the entire screen */
+background-repeat: no-repeat; /* Prevent the background from repeating */
+ background-position: left; /* Center the background image */
+}
+
+.pragati-narrow-regular {
+  font-family: "Pragati Narrow", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.pragati-narrow-bold {
+  font-family: "Pragati Narrow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.special-text {
+font-family: 'Pragati Narrow' ;
+font-weight: 400;
+font-size: 20px;
+}
+.special-text-2 {
+font-family: 'Pragati Narrow' ;
+font-weight: 400;
+font-size: 20px;
+color: white;
+}
+  
+  
+  
+ .bar_menu_1 { 
+  background-color: #014b94; /*couleur */
+  width: 80%;
+  height: 30px;
+  top: 0;   
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin-left: auto; 
+  margin-right: auto;  
+  display: flex;
+   z-index: 5;
+
+ }  
+  .lien_navigation_objet {
+   margin-left: auto;
+}   
+  .lien_navigation_entete {
+margin-right: 5px; 
+font-family: "Arial", sans-serif;
+text-decoration: none; 
+position: relative;
+color: #000; 
+ }
+  .lien_navigation_entete::after {
+      content: '';
+      position: absolute;
+      width: 0px; 
+      height: 1px;
+      background-color: transparent; 
+      bottom: -4px;
+      left: 0px; 
+      transition: width 0.3s ease; 
+ }
+  .lien_navigation_entete:hover::after {
+      width: 100%; 
+	   background-color: black;
+ }
+ 
+ 
+ 
+ 
+ .bar_menu_2 {  
+   background-color: #ffffff; /*couleur, à remplacer par #ffffff */
+  width: 80%;
+  height: 80px;
+  top: 30px;   
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin-left: auto; 
+  margin-right: auto; 
+  display: flex;
+  z-index: 5;
+    border: 2px solid #014b94;
+	border-bottom-right-radius: 20px;
+  }  
+ .bar_menu_deroulant_1 {   
+  background-color: #014b94; /*couleur */
+  width: 80%;
+  height: 30px;
+  top: -300px;   
+  left: 0;
+  right: 0;
+  margin-left: auto; 
+  margin-right: auto;
+  display: flex;  
+  transition: top 0.3s ease; /* Transition for smooth animation */
+  z-index: 10;
+  position: fixed;
+  }   
+ .bar_menu_deroulant_2 {
+  background-color: #ffffff; /*couleur */
+  width: 80%;
+  height: 80px;
+  top: -200px;   
+  left: 0;
+  right: 0;
+  display: flex;
+  position: fixed;
+  margin-left: auto; 
+  margin-right: auto; 
+  transition: top 0.9s ease; /* Transition for smooth animation */
+  z-index: 10;
+    border: 2px solid #014b94;
+	border-bottom-right-radius: 20px;
+ }
+    .lien_navigation_objet {
+   margin-left: auto;
+}   
+  .lien_navigation_entete-2 {
+margin-right: 5px; 
+font-family: "Arial", sans-serif;
+text-decoration: none; 
+position: relative;
+color: #000; 
+margin-bottom: auto;
+ }
+  .lien_navigation_entete-2::after {
+      content: '';
+      position: absolute;
+      width: 0px; 
+      height: 1px;
+      background-color: transparent; 
+      bottom: -1px;
+      left: 0px; 
+      transition: width 0.3s ease; 
+ }
+  .lien_navigation_entete-2:hover::after {
+      width: 100%; 
+	   background-color: black;
+ } 
+ .carousel-inner {
+  border-bottom-left-radius: 75px;
+  border-bottom-right-radius: 75px;
+  box-shadow: 0 4px 3px;
+ } 
+.bar_menu_deroulant_1.visible {
+  top: 0;
+  }
+.bar_menu_deroulant_2.visible {
+  top: 30px; 
+} 
+ .logo_stockam {
+ display: flex;
+ width: 148px;
+ margin-right: auto;
+ } 
+ .image_RS_objet {
+ display: flex;
+  margin-left: auto;
+  color: white;
+ } 
+ .image_RS_1 {
+ display: flex;
+ width: 30px;
+ } 
+ .image_RS_2 {
+ display: flex;
+ width: 30px;
+ }
+.carousel-item img {
+      height: 400px;
+      width: 100%;
+      object-fit: cover;
+    } 
+.cadre-titre {
+
+color: #014b94; 
+padding: 10px 20px; /
+border-radius: 15px; 
+display: inline-block; 
+font-family: "Arial", sans-serif;
+font-weight: bold;
+font-size: 28px;
+	   background-image: url('Img/borre2.png');
+       background-repeat: repeat; 
+       background-position: left; 
+	        border: 2px solid #014b94;
+	  }
+
+
+.cadre-titre-3 {
+color: #014b94; 
+padding: 10px 20px; 
+border-radius: 15px; 
+display: inline-block; 
+font-family: "Arial", sans-serif;
+font-weight: bold;
+font-size: 28px;
+	   background-image: url('Img/borre2.png');
+       background-repeat: repeat; 
+       background-position: left; 
+	   margin-top: 10px;
+       margin-left: 10px;
+	  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  
+.cadre-titre 2 {
+background-color: #014b94; /* Light blue background color */
+color: #fff; /* White text color */
+padding: 10px 20px; /* Adjust padding as needed */
+border-radius: 5px; /* Rounded corners */
+display: inline-block; /* Ensure it's inline with the text */
+font-family: "Arial", sans-serif;
+font-weight: bold;
+font-size: 28px;
+margin-top: 10px;
+margin-left 10px;
+}
+
+.lien-navigation-2 {
+background-color: #FFFFFF; 
+color: #0D0C0C;
+padding: 10px 20px; /* Adjust padding as needed */
+border-radius: 60px; /* Rounded corners */
+display: inline-block; /* Ensure it's inline with the text */
+font-family: "Arial", sans-serif;
+font-weight: bold;
+font-size: 16px;
+margin-left: 10px;
+}
+
+.lien-navigation-3 {
+background-color: #014b94; 
+padding: 10px 20px; /* Adjust padding as needed */
+border-radius: 60px; /* Rounded corners */
+display: inline-block; /* Ensure it's inline with the text */
+font-family: "Arial", sans-serif;
+font-weight: bold;
+font-size: 16px;
+}
+
+
+	  
+	  
+	  
+.illustration-image-1 {
+ width: 600px;
+ height: 400px;
+ border-radius: 10px;
+ box-shadow: 0 4px 3px;
+ border: 6px solid #014b94;
+ padding-left: 0px;
+ padding-right: 0px;
+}
+.illustration-image-2 {
+height: 450px;
+width: 575px;
+border-radius: 30px;
+  box-shadow: 0 4px 3px;
+}
+.illustration-image-3 {
+display: flex;
+border-radius: 30px;
+  box-shadow: 0px 5px 10px 2px;
+ width: 100%;
+}
+
+
+.illustration-image-4 {
+height: 250px;
+width: 380px;
+border-radius: 30px;
+  box-shadow: 0px 5px 10px 2px;
+
+}
+
+
+
+
+.rectangle-1 {
+display: flex;
+background-color: #014b94;
+}
+.rectangle-2 {
+display: flex;
+background-color: #014b94;
+
+}
+.rectangle-1 {
+flex-direction: row;
+display: flex;
+width: 100;
+}
+
+
+.Rectangle-5 {
+background-image: url('Img/fond5.png');
+background-size: auto;
+background-repeat: no-repeatrepeat;
+background-position: top;
+}
+
+
+.lien_navigation_corp-1 {
+color: #0D0C0C;
+text-decoration: none;
+margin-right: 5px; 
+font-family: "Arial", sans-serif;
+text-decoration: none; 
+position: relative; 
+margin-bottom: auto;
+ } 
+  .lien_navigation_corp-1::after {
+      content: '';
+      position: absolute;
+      width: 0px; 
+      height: 2px;
+      background-color: transparent; 
+      bottom: -2px;
+      left: 0px; 
+      transition: width 0.3s ease; 
+ }
+  .lien_navigation_corp-1:hover::after {
+      width: 100%; 
+	   background-color: White;
+}
+
+.lien_navigation_corp-3 {
+color: #ffffff;
+text-decoration: none;
+margin-right: 5px; 
+font-family: "Arial", sans-serif;
+text-decoration: none; 
+position: relative; 
+margin-bottom: auto;
+ } 
+  .lien_navigation_corp-3::after {
+      content: '';
+      position: absolute;
+      width: 0px; 
+      height: 2px;
+      background-color: transparent; 
+      bottom: -2px;
+      left: 0px; 
+      transition: width 0.3s ease; 
+ }
+  .lien_navigation_corp-3:hover::after {
+      width: 100%; 
+	   background-color: White;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box-BE {
+
+}
+
+
+
+
+
+
+
+
+.Rectangle-3 {
+      width: 80%;
+      display: flex; 
+	   Font-color: White;
+	   position: relative;
+	   margin-left: auto;
+	   margin-right: auto;
+	   border-radius: 5px;
+	   background-image: url('Img/barre.jpg');
+	   background-size: 350px; /* Adjust to fit the container */
+       background-repeat: repeat; /* Prevent the background from repeating */
+       background-position: left; /* Center the background image */
+       padding: 0px;		   
+	   }
+	   
+	   
+.texte-Rectangle-3 {
+color: #fff;
+}
+
+
+.texte-Rectangle-4 {
+color: #ffffff;
+margin-left: auto;
+}
+
+ 
+ .image_RS_objet-2 {
+ display: flex;
+ width: 60px;
+  margin-left: 0px;
+  margin-top: auto;
+  color: white;
+ } 
+ .image_RS_3 {
+ display: flex;
+ width: 30px;
+ height: 30px;
+ } 
+ .image_RS_4 {
+ display: flex;
+ width: 30px;
+  height: 30px;
+ }
+ 
+ 
+ .nav-link {
+ margin-right: 5px; 
+font-family: "Arial", sans-serif;
+text-decoration: none; 
+position: relative; 
+margin-bottom: auto;
+ }
+  .nav-link::after {
+      content: '';
+      position: absolute;
+      width: 0px; 
+      height: 1px;	
+      background-color: transparent; 
+      bottom: -1px;
+      left: 0px; 
+      transition: width 0.3s ease; 
+ }
+  .nav-link:hover::after {
+      width: 100%; 
+	   background-color: White;
+  }
+
+form {
+    border-radius: 50px;
+}
+  
+  label {
+color: white;
+font-family: "Pragati Narrow", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+input[type="submit"] {
+    border-radius: 5px;
+}
+input[type="text"] {
+    border-radius: 5px;
+}
+input[type="password"] {
+    border-radius: 5px;
+}
+.lien_utilisateur {
+color: black;
+background-color: white;
+border-bottom-left-radius: 100px;
+border-bottom-right-radius: 100px;
+border-top-right-radius: 100px;
+border-top-left-radius: 100px;
+text-decoration: none;
+margin-right: 10px;
+margin-left: 5px;
+width: 150px;
+height: 80%;
+position: relative;
+font-family: "Pragati Narrow", sans-serif;
+font-size: 17px;
+}
+ 
+.compte_creation {
+color: black;
+background-color: white;
+background-color: white;
+border-bottom-left-radius: 2px;
+border-bottom-right-radius: 2px;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+font-family: "Pragati Narrow", sans-serif;
+font-size: 17px;
+text-decoration: none;
+height: 70%;
+position: relative;
+}

@@ -1,0 +1,107 @@
+
+body {
+ background-image: url(fond.png);
+background-size: 1500px; /* Adjust to fit the entire screen */
+background-repeat: repeat; /* Prevent the background from repeating */
+ background-position: left; /* Center the background image */
+ background-color: #C2CDEF;
+}
+		.bar_menu_1 { 
+  background-color: #0000FF; /*couleur */
+  width: 80%;
+  height: 30px;
+  top: 0;   
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin-left: auto; 
+  margin-right: auto;  
+  display: flex;
+   z-index: 5;
+ }  
+  .lien_navigation_objet {
+   margin-left: auto;
+}   
+  .lien_navigation_entete {
+margin-right: 5px; 
+font-family: "Arial", sans-serif;
+text-decoration: none; 
+position: relative;
+color: #000; 
+ }
+  .lien_navigation_entete::after {
+      content: '';
+      position: absolute;
+      width: 0px; 
+      height: 1px;
+      background-color: transparent; 
+      bottom: -4px;
+      left: 0px; 
+      transition: width 0.3s ease; 
+ }
+  .lien_navigation_entete:hover::after {
+      width: 100%; 
+	   background-color: black;
+ }
+ 
+ 
+ .logo_stockam {
+ display: flex;
+ width: 148px;
+ margin-right: auto;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .image_RS_objet {
+ display: flex;
+  margin-left: auto;
+  color: white;
+ } 
+ .image_RS_1 {
+ display: flex;
+ width: 30px;
+ } 
+ .image_RS_2 {
+ display: flex;
+ width: 30px;
+ }
+ 
+  .bar_menu_2 {  
+   background-color: #ffffff; /*couleur, à remplacer par #ffffff */
+  width: 80%;
+  height: 80px;
+  top: 30px;   
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin-left: auto; 
+  margin-right: auto; 
+  display: flex;
+   z-index: 5;
+  }
+ 
+ .register {
+background-color: #868DA2;
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+position: relative; 
+border-radius: 50px;
+ }
+ 
+ h1 {
+margin-left: 30px;
+color: white; 
+ }
+ 
+ .submit {
+	 margin-left: 30px;
+ }
+ 
+ 
+ 
